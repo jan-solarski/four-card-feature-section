@@ -1,4 +1,3 @@
 # four-card-feature-section
 
-Live view: 
-https://incandescent-cendol-49e421.netlify.app
+<a href="https://incandescent-cendol-49e421.netlify.app">Live view</a>
