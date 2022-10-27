@@ -11,9 +11,6 @@ body {
     background-color: hsl(0, 0%, 98%);
 }
 
-.container {
-}
-
 header {
     text-align: center;
     padding: 20px;
@@ -50,12 +47,12 @@ p {
 }
 
 .cards-wrapper {
-    display: grid;
     align-items: center;
     width: 100%;
-    grid-template-areas: "supervisor wrapper calculator";
-    grid-template-columns: repeat(2, 1fr);
-    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row
 }
 
 img {
@@ -80,6 +77,15 @@ img {
 
 .blue {
     border-top: 5px solid hsl(212, 86%, 64%);
+}
+
+@media (min-width: 700px) and (max-width: 900px) {
+    .grid-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: row;
+    }
 }
 
 @media screen and (max-width: 640px) {
